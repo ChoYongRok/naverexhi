@@ -1,0 +1,81 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+  margin: 0;
+  font-family: 'Arita-dotum-Medium';
+  background-color: #222;
+}
+
+main{
+  width: 100%;
+  height: 250px;
+}
+
+main img{
+  z-index: -1000;
+  width: 100%;
+  height: 400px;
+  position: fixed;
+  object-fit: cover;
+  filter: brightness(0.9)
+}
+
+section{
+  border-radius: 25px 25px 0 0 ;
+  width: 100%;
+  max-width: 100%;
+  background-color: #222;
+  box-shadow: 0px -10px 10px rgba(0,0,0,0.3);
+  color: #fefefe;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+section h1{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+.info{
+  text-align: left;
+  margin: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #dbdbdb;
+  line-height: 30px;
+}
+.text{
+  text-align: left;
+  margin: 30px;
+  font-weight: normal;
+  font-size: 15px;
+}

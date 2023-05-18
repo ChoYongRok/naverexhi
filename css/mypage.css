@@ -1,0 +1,252 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+  width: 100%;
+  max-width: 100%;
+  color: #d9d9d9;
+  margin: 0;
+  font-family: 'Arita-dotum-Medium';
+  background-color: #222;
+}
+
+.set{
+  text-align: right;
+  padding: 10px;
+}
+
+.set span{
+  font-size: 35px;
+}
+
+/* profile */
+#profile{
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile span{
+  background-color: #1CC900;
+  border-radius: 50%;
+  font-size: 70px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#profile h1{
+  font-weight: normal;
+}
+
+
+/* reserve */
+#reserve h1{
+  display: inline-block;
+  margin-left: 65px;
+  font-weight: normal;
+  font-size: 25px;
+  color: #1CC900;
+}
+
+#reserve span{
+  margin-left: 20px;
+  font-size: 35px;
+  color: #1CC900;
+  position: absolute;
+}
+
+#reserve .box{
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#reserve .text{
+  line-height: 30px;
+}
+
+#reserve h4{
+  font-weight: normal;
+}
+
+#reserve img{
+  margin-right: 20px;
+  width:30%;
+  max-width: 30%;
+}
+
+#reserve .text a{
+  display: inline-block;
+  background-color: #1CC900;
+  width: 80px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* like */
+#like{margin: 50px 0;}
+#like h1{
+  display: inline-block;
+  margin-left: 65px;
+  font-weight: normal;
+  font-size: 25px;
+  color: #1CC900;
+}
+
+#like span{
+  margin-left: 20px;
+  font-size: 35px;
+  color: #1CC900;
+  position: absolute;
+}
+
+#like img{
+  width: 80%;
+  max-width: 80%;
+}
+
+#like .slider{
+  width: 80%;
+  max-width: 80%;
+  padding: 30px;
+}
+
+
+/* went */
+#went{padding-bottom: 150px;}
+#went h1{
+  display: inline-block;
+  margin-left: 65px;
+  font-weight: normal;
+  font-size: 25px;
+  color: #1CC900;
+}
+
+#went>span{
+  margin-left: 20px;
+  font-size: 35px;
+  color: #1CC900;
+  position: absolute;
+}
+
+#went img{
+  width: 70%;
+  max-width: 70%;
+}
+
+#went h4{
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#went .slider{
+  width: 80%;
+  max-width: 80%;
+  margin: 40px  0 0 30px;
+}
+
+#went .slider span{
+  position: absolute;
+  margin-left: -20px;
+  font-size: 20px;
+}
+
+#went a{
+  display: inline-block;
+  width: 80px;
+  padding-right:5px;
+  text-align: right;
+  background-color: #1CC900;
+  font-weight: normal;
+  color: #222;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+/* setting */
+aside{
+  position: fixed;
+  top:0;
+  right: -100%;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #222;
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside .back span{
+  position: absolute;
+  top:2%;
+  right:5%;
+  font-size: 50px;
+}
+
+aside div{
+  margin-left: 50px;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
+
+aside div h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+aside div h4{
+  font-size: 22px;
+  font-weight: normal;
+  text-indent: 40px;
+}
+
+aside a{
+  float: right;
+  margin-top: 60px;
+  margin-right: 15%;
+  display: inline-block;
+  background-color: #1CC900;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #222;
+  font-weight: bold;
+}
